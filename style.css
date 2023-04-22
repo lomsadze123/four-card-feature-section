@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.topflex {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.header {
+    width: 311px;
+    margin-top: 85px;
+}
+
+h1, h2 , h3, p {
+    color: #4D4F62;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 275;
+    line-height: 36px;
+    letter-spacing: 0.17px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.17px;
+    margin: 1px 0 13px 0;
+}
+
+.headerp {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    opacity: 50%;
+}
+
+.box {
+    width: 311px;
+    height: 222px;
+    border-radius: 8px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    margin: 0 auto;
+    position: relative;
+    padding: 27px 28px 28px 28px;
+}
+
+.box h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.boxp {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.09px;
+    opacity: 50%;
+    margin-top: 1px;
+}
+
+img {
+    position: absolute;
+    right: 28px;
+    bottom: 28px;
+    width: 57px;
+    height: 57px;
+}
+
+.boxes {
+    margin: 76px 0 78px 0;
+}
+
+.one {
+    border-top: 3.55px solid #44D3D2;
+}
+
+.two {
+    border-top: 3.55px solid #EA5454;
+    margin-top: 25px;
+}
+
+.three {
+    border-top: 3.55px solid #FCAE4A;
+    margin-top: 23px;
+}
+
+.four {
+    border-top: 3.55px solid #549EF2;
+    margin-top: 17px;
+}
+
+@media all and (min-width:720px) {
+    h2 {
+        font-size: 36px;
+        line-height: 54px;
+        letter-spacing: 0.25px;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 54px;
+        letter-spacing: 0.25px;
+    }
+    .boxes {
+        display: flex;
+        justify-content: center;
+        margin: 208px 0 0 -66px;
+        gap: 30px;
+    }
+    .box {
+        width: 350px;
+        height: 250px;
+        margin: 0;
+        padding: 32px;
+    }
+    .header {
+        width: 540px;
+        margin-top: 80px;
+    }
+    .wrap {
+        margin-top: -136px;
+    }
+    .three {
+        margin-top: 30px;
+    }
+    img {
+        width: 64px;
+        height: 64px;
+        right: 32px;
+        bottom: 32px;
+    }
+}
